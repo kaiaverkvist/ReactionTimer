@@ -28,7 +28,7 @@ var config = {
     },
     pixelArt: true,
     scene: [ Main ],
-    backgroundColor: BACKGROUND_COLOR,
+    backgroundColor: "#000",
     roundPixels: false,
     clearBeforeRender: true,
 }
