@@ -94,7 +94,7 @@ class Main extends Phaser.Scene {
 
                 let time = currentTime - this.r_blackScreenStart;
                 console.log(time);
-                this.systemInfo.updateContent("Your reaction time was: " + time + "ms", "");
+                this.systemInfo.updateContent("Your reaction time was: " + Math.round(time) + "ms", "");
                 this.r_state = 3;
 
                 break;
