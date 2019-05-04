@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>ReactionTimer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="assets/css/custom.css">
+
+	<link rel="stylesheet" href="assets/css/ui/navtest.css">
+	<link rel="stylesheet" href="assets/css/ui/infobox.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Fjalla+One" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+
+<body>
+	<!--[if lt IE 7]>--
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+	<div id="game"></div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+
+	<script src="js/dev.phaser.js"></script>
+
+	<script src='js/vendor/eventemitter.min.js'></script>
+
+	<script src="js/config.js"></script>
+	<script>
+		var gameEmitter = new EventEmitter();
+	</script>
+	<script type="module" src="js/game/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+
+NavBar {
+    display: block;
+    background-color: #56534c;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+    -webkit-border-radius: 0px 6px 6px 0px;
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid #000000;
+    -webkit-box-shadow:  2px 2px 0px 0px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px #78746d;
+    box-shadow:  2px 2px 0px 0px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px #78746d;
+
+    color: #000;
+    font-weight: 700;
+
+    text-shadow: 1px 1px 0px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+    cursor: pointer;
+}
+
+NavBar > NavButton {
+    color: #AAAAAA;
+    display: block;
+    position: relative;
+    border-radius: 6px;
+    width: 100%;
+    height: 88px;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+NavBar > NavButton:hover {
+    color: #FFFFFF;
+    -webkit-box-shadow: inset 0px 0px 0px 2px #827d76;
+    box-shadow: inset 0px 0px 0px 2px #827d76;
+    background-color: #827d76;
+}
+
+NavBar > NavButton:active {
+    -webkit-box-shadow: inset 0px 0px 0px 2px #44403F;
+    box-shadow: inset 0px 0px 0px 2px #44403F;
+    background-color: #4f4b47;
+}
+
+NavBar > NavButton > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40%;
+    margin: auto;
+}
+
+NavBar > NavButton > i {
+    display:inline-block;
+    font-size: 2.3em;
+    color:white;
+    text-align: center;
+    vertical-align: bottom;
+    transform: translateY(-25%);
+}
+
+NavBar > NavButton > NavLabel {
+    display: block;
+    position: absolute;
+    left: -6px;
+    right: 0px;
+    bottom: 12px;
+    width: 100px;
+    text-align: center;
+    font-size: .8rem;
+    font-family: 'Dosis', sans-serif;
+}

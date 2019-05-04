@@ -1,0 +1,28 @@
+InfoBox {
+    display:inline-block;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  InfoBoxTitle {
+    display: block;
+    opacity: 1 !important;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    text-shadow: -1.3px -1.3px 0 #000, 1.3px -1.3px 0 #000, -1.3px 1.3px 0 #000, 1.3px 1.3px 0 #000;
+  }
+  
+  InfoBoxContent {
+    display: block;
+    opacity: 1 !important;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+  }
